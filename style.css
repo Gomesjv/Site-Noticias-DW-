@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px blueviolet;
+}
+
+header{
+    background-color: #212121;
+    color: white;
+    margin: 0%;
+
+}
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: 120px;
+}
+nav > div{
+    display: inline; 
+}
+.container {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33% ;
+    align-items: center;
+    text-align: center;
+    margin-left: 505px;
+    margin-right: 505px;
+}
+.icon{
+    transition-duration: 5ms;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.bottomheader{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: blueviolet;
+    height: 40px;
+    box-shadow: 0px 5px rgb(67, 24, 107);
+
+}
