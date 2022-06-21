@@ -27,11 +27,10 @@ nav > div{
 }
 .container {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33% ;
+    grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
     text-align: center;
-    margin-left: 505px;
-    margin-right: 505px;
+    
 }
 .icon{
     transition-duration: 5ms;
