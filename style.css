@@ -3,6 +3,7 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(0, 0, 0);
@@ -13,6 +14,7 @@ header{
     background-color: #212121;
     color: white;
     margin: 0%;
+    
 
 }
 nav{
@@ -30,7 +32,13 @@ nav > div{
     grid-template-columns: 1fr 1fr 1fr ;
     align-items: center;
     text-align: center;
-    
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; 
 }
 .icon{
     transition-duration: 5ms;
